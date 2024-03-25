@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: "Roboto", sans-serif;
     background-color:rgb(62, 155, 58);
@@ -10,46 +11,46 @@ body{
 }
 
 header {
-    box-shadow: 0 0 10px;
-    background:rgb(62, 155, 58);
-    height: 45px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    box-shadow: #ccc;
-    padding: 35px;
-    position: fixed;
-    width: 97%;
+    align-items: center;
     
-    }
-    .banner img {
+     }
+
+ .banner img {
         width: 100%;
     }
 
-    .imagens {
-        padding: 30px 10px;
-        box-sizing: border-box;
-        
+ .logo img {
+        width: 150px;
     }
-    
 
+ .imagens {
+        padding: 30px 10px;
+        box-sizing: border-box;   
+    }
+
+ .menu li {
+        display: flex;
+        margin: 0 10px; 
+        display: inline-block;      
+    }
   
-ul{
-    display: flex;
-    margin: 20px;
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
 }
-li{
-   
-    list-style-type: none;
-    cursor: pointer;
-    padding-left: 30px;
-}
+
 .banner img {
     width: 100%;
-}
+    im
 
 
 main {
-    margin: 120px auto;
+    margin: 120px auto ;
     width: 1000px;
 }
 
